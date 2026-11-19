@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Media Hush</string>
+    <string name="xposed_description">Stops media notifications and the media player card. Scope apps to make their media notifications blockable by notification settings; scope System Framework to drop all media notifications.</string>
+    <string-array name="xposed_scope">
+        <item>com.brave.browser</item>
+        <item>com.brave.browser_beta</item>
+        <item>com.brave.browser_nightly</item>
+    </string-array>
+</resources>
